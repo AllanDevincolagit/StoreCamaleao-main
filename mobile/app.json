@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Camaleão Store",
+    "slug": "Camaleão Store",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#87C65C"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.jpeg",
+        "backgroundColor": "#87C65C"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
