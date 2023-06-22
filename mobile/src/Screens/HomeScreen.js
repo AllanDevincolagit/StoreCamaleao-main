@@ -1,13 +1,15 @@
 import React from 'react'
-import {Text,View} from 'native-base'
+import {Box,Text,View} from 'native-base'
+import Colors from "../color"
+import HomeSearch from '../Components/HomeSearch'
+import HomeProducts from '../Components/HomeProducts'
 
 
 function HomeScreen() {
-  return (
-    <View>
-        <Text>HomeScreen</Text>
-    </View>
-  );
+  return <Box flex={1} bg={Colors.subGreen}>
+            <HomeSearch/>
+            <HomeProducts/>
+         </Box>
 }
 
 export default HomeScreen
